@@ -1,0 +1,97 @@
+% Creating a simple Title Page in Beamer \documentclass{beamer} 
+\usepackage{colortbl} 
+\usepackage{xcolor} 
+\usepackage{graphicx} 
+% Theme choice: 
+%\usetheme{AnnArbor}
+ %\usetheme{CambridgeUS} 
+\usetheme{Antibes} 
+% Title page details: 
+\title{DEVI CHANDU REDDY MOTATI} 
+\subtitle{\hspace{3.8cm}\small{-Student}} 
+\institute{} 
+% Multiple authors 
+\author{} \begin{document} 
+% Title page frame 
+\begin{frame} 
+\titlepage 
+\end{frame} 
+% Outline frame 
+\begin{frame}{Outline} 
+\tableofcontents 
+\end{frame} 
+%Presentation structure 
+\section{Personal info} 
+\begin{itemize} 
+\item {Name: Ruchitha} 
+\item {profession: Student} 
+\item {DOB: 30 Feb, 2003 } 
+\item {Father and Mother: Narayana , Swapna} 
+\item {Adress:\newline Vill: kashibugga,
+\newline Dist: warangal} 
+\item {Mobile no: 9876543210} 
+\item {Mail id:\newline b191000@rgukt.ac.in 
+\newline abcd123@gmail.com} 
+\item {Nationality: Indian} 
+\item {Religion:Hindu} 
+\end{itemize} 
+\begin{frame} 
+\section{Education} 
+\begin{tabular}{|c||c||l|} 
+\hline 
+\rowcolor{orange} 2019-2024 & Integrated Btech course (CSE) & RGUKT Basar\\ 
+\hline 
+\rowcolor{white} 2014-2019 & \color{blue}{\textbf{SSC}} & ZPHS Durshed\\ 
+\hline \rowcolor{green} 2009-2014 & Primary Education & PS Nallaguntapalli\\ 
+\hline 
+\end{tabular} 
+\end{frame} 
+\begin{frame}{Hobbies and skills} 
+\section{Hobbies} 
+\textbf{Hobbies} 
+\begin{itemize} 
+\item Watching Dramas
+\item  Drawing
+\item singing
+\item Reading novels 
+\end{itemize} 
+\textbf{Skills} 
+\section{Skills} 
+\subsection{computer skills} 
+\begin{itemize} 
+\item \textbf{Computer Skills} 
+\item Basic Python 
+\item C language 
+\item Basic HTML, Linux, \LaTeX{} 
+\end{itemize} 
+\subsection{Soft skills} 
+\begin{itemize} 
+\item \textbf{Soft Skills} 
+\item Logical Reasoning 
+\item Problem Solving 
+\end{itemize} 
+\end{frame} 
+\section*{References} 
+\begin{frame}{Other Interests} 
+\section{Other Intrests} 
+\begin{block}{Volunteer Experience in College} 
+\begin{enumerate} 
+\item NSS volunteer 
+\item {Hope House memeber\\ 
+\begin{figure} 
+\includegraphics[width=2.5cm]{hopehouse.jpg} 
+\caption{Hope House} 
+\end{figure}}
+ \end{enumerate} 
+\end{block} 
+\end{frame} 
+\begin{frame} 
+\section{Achievements} 
+\textbf{Achievements} 
+\begin{itemize} 
+\item Partcipated in various State level compititions and won many medals 
+\item {Scored 10 CGPA in SSC and got admission into RGUKT Basar } 
+\item Selected for Siemens Scholorship Program and Learning many new skills 
+\end{itemize} 
+\end{frame}
+ \end{document}
